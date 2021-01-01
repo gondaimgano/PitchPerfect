@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KgL-a4-BRU">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,11 +12,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="RecordSoundViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="l5F-eX-ahr">
-                                <rect key="frame" x="129.5" y="348.5" width="155" height="253.5"/>
+                                <rect key="frame" x="110" y="306.33333333333331" width="155" height="253.33333333333331"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIY-QF-9Q7">
                                         <rect key="frame" x="0.0" y="0.0" width="155" height="155"/>
@@ -26,13 +26,13 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Recording" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b70-tn-yey">
-                                        <rect key="frame" x="17.5" y="162" width="120" height="20.5"/>
+                                        <rect key="frame" x="17.666666666666671" y="162" width="120.00000000000001" height="20.333333333333343"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wO9-Oz-nzc">
-                                        <rect key="frame" x="45.5" y="189.5" width="64" height="64"/>
+                                        <rect key="frame" x="45.666666666666657" y="189.33333333333337" width="64" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="64" id="OY2-hx-ROb"/>
                                             <constraint firstAttribute="height" constant="64" id="tWw-vp-rpU"/>
@@ -69,14 +69,14 @@
             <objects>
                 <viewController id="5Br-0Y-qeY" customClass="PlaySoundsViewController" customModule="PitchPerfect" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LBz-ZP-2lp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Mhx-V4-Zsd">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="690"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="NHY-DQ-LnN">
-                                        <rect key="frame" x="92" y="0.0" width="230" height="90"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="NHY-DQ-LnN">
+                                        <rect key="frame" x="72.666666666666686" y="0.0" width="230" height="90"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpC-5r-jVL">
                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
@@ -94,8 +94,8 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="WU0-yj-uhI">
-                                        <rect key="frame" x="92" y="236.5" width="230" height="90"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="WU0-yj-uhI">
+                                        <rect key="frame" x="72.666666666666686" y="208.66666666666669" width="230" height="90"/>
                                         <subviews>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="io6-4V-Y72">
                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
@@ -113,8 +113,8 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="r0J-4b-Ezp">
-                                        <rect key="frame" x="92" y="473.5" width="230" height="90"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="r0J-4b-Ezp">
+                                        <rect key="frame" x="72.666666666666686" y="417.33333333333331" width="230" height="90"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPF-oP-GBD">
                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
@@ -133,7 +133,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yZ-xl-UAT">
-                                        <rect key="frame" x="175" y="710" width="64" height="64"/>
+                                        <rect key="frame" x="155.66666666666666" y="626" width="64" height="64"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="64" id="3Tx-Q7-e6c"/>
                                             <constraint firstAttribute="height" constant="64" id="5LP-oj-nHU"/>
@@ -176,7 +176,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KgL-a4-BRU" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dHR-aY-Iv5">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
