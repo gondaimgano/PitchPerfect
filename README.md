@@ -1,6 +1,6 @@
 # PitchPerfect
 
 
-## About Covid 19 Statistics
+## About PitchPerfect
 
 Using the power of AVFoundation 
